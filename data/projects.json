@@ -1,0 +1,32 @@
+{
+  "name": "Hyleen Dumlao",
+  "githubUsername": "hyleendumlao",
+  "tagline": "Aspiring IT Professional | Future BusinessWoman & Creative",
+  "introduction": "Aspiring Developer | Lifelong Learner.",
+  "profileImage": "images/profile.jpg",
+  "about": {
+    "biography": " I'm passionate about turning ideas into reality through technology and creativity. Currently focused on my journey to become a professional IT while also pursuing my dream of becoming a businesswoman. I love exploring the world of online work, social media, designing, and sewing my own clothes. I'm also a makeup enthusiast and do makeup for events. Always learning, always creating — one project at a time..",
+    "school": "Nueva Vizcaya State University",
+    "program": "Bachelor of Science in Information Technology",
+    "graduation": "Expected graduation: 2028",
+    "careerGoal": "To become a professional IT and a successful businesswoman, building a career that combines technology, creativity, and online entrepreneurship.",
+    "interests": "Working Online, Social Media Management, Fashion Designing, Sewing Clothes, Makeup Artistry, Web Design, Business & Entrepreneurship."
+  },
+  "skills": ["Basic Web Development (HTML, CSS, JavaScript)", "Creative Design (Canva, Figma)", "Fashion Design & Sewing", "Makeup Artistry", "Social Media Management", "Computer Literacy", "Eager to Learn New Technologies"],
+  "projects": [
+    {
+      "title": "My Portfolio",
+      "description": "A responsive personal portfolio website designed to showcase my academic background, skills, and projects. Built with a clean and minimal layout focused on user experience.",
+      "technologies": "HTML, CSS, JavaScript",
+      "role": " I designed and developed the entire website from scratch, including layout, styling, and interactivity.",
+      "image": "https://placehold.co/320x145/E94E77/FFFFFF?text=My+Portfolio",
+      "link": "./index.html"
+    }
+  ],
+  "contact": {
+    "email": "hyleendumlao272@gmail.com",
+    "location": "Aritao, Nueva Vizcaya",
+    "github": "https://github.com/hyleendumlao",
+    "linkedin": ""
+  }
+}

@@ -1,0 +1,229 @@
+/* AESTHETIC FONT - MAGANDA TALAGA */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#FADBD8 !important; font-family:'DM Sans', sans-serif !important; color:#4A2C33; }
+
+nav {
+  background:#F1949E !important;
+  padding:1.2rem 6% !important;
+  display:flex !important;
+  justify-content:space-between !important;
+  align-items:center !important;
+}
+nav a { color:white !important; text-decoration:none !important; font-weight:500 !important; font-size:0.95rem !important; }
+nav ul { display:flex !important; gap:2.2rem !important; list-style:none !important; }
+
+/* HOME - HINDI NA MALAYO YUNG NAME AT PICTURE */
+#home {
+  background:#FADBD8 !important;
+  max-width:1100px !important;
+  width:90% !important;
+  margin:0 auto !important;
+  padding:4rem 0 !important;
+  display:flex !important;
+  justify-content:space-between !important;
+  align-items:center !important;
+  gap:3rem !important; /* dati sobrang laki, ngayon sakto lang */
+}
+#home > div:first-child { max-width:520px !important; }
+#home h1 {
+  font-family:'Fraunces', serif !important;
+  font-size:3rem !important;
+  font-weight:700 !important;
+  color:#4A2C33 !important;
+  line-height:1.1 !important;
+  letter-spacing:-1px !important;
+}
+#home p { margin-top:1rem !important; font-size:1rem !important; line-height:1.7 !important; }
+#home img {
+  width:340px !important;
+  height:340px !important;
+  border-radius:50% !important;
+  border:6px solid white !important;
+  object-fit:cover !important;
+  flex-shrink:0 !important;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08) !important;
+}
+
+/* LAHAT NG SECTION - PERFECT ALIGNMENT SAME LAPAD */
+#about, #skills, #projects, #contact {
+  background:#FFFEFD !important;
+  border-radius:24px !important;
+  padding:2.5rem !important;
+  width:90% !important;
+  max-width:1100px !important;
+  margin:2rem auto !important;
+  box-shadow:0 10px 30px rgba(0,0,0,0.04) !important;
+}
+#about h2, #skills h2, #projects h2, #contact h2 {
+  font-family:'Fraunces', serif !important;
+  font-size:1.8rem !important;
+  margin-bottom:1rem !important;
+}
+
+/* ABOUT ME - PLEASING BUBBLE HINDI PLAIN */
+#about > div, #about .about-content {
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:12px !important;
+  margin-top:1rem !important;
+}
+#about b, #about strong, #about h3, #about h4 {
+  width:100% !important;
+  font-family:'DM Sans' !important;
+  font-weight:600 !important;
+  font-size:0.95rem !important;
+  margin-top:0.8rem !important;
+  display:block !important;
+}
+#biography, #education, #graduation, #careerGoal, #interests {
+  background:#FFF0F2 !important;
+  color:#6B3040 !important;
+  border:1.5px solid #F9C5CC !important;
+  border-radius:14px !important;
+  padding:12px 20px !important;
+  font-size:0.92rem !important;
+  line-height:1.6 !important;
+  display:inline-block !important;
+  box-shadow:0 2px 8px rgba(0,0,0,0.02) !important;
+}
+
+/* MY SKILLS - SAME PLEASING BUBBLE PERO MALIIT TIGIISA */
+#skillsContainer {
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:12px !important;
+  margin-top:1.2rem !important;
+}
+.skill-card {
+  background:#FFF0F2 !important;
+  color:#6B3040 !important;
+  border:1.5px solid #F9C5CC !important;
+  border-radius:12px !important;
+  padding:10px 18px !important;
+  font-size:0.9rem !important;
+  font-weight:500 !important;
+}
+
+/* MY PROJECTS - SPACING AYOS NA AYOS */
+#projects-grid {
+  display:flex !important;
+  flex-wrap:wrap !important;
+  gap:1.5rem !important;
+  margin-bottom:3rem !important; /* MALAKING SPACE BAGO GITHUB */
+}
+.project-card {
+  width:360px !important;
+  background:white !important;
+  border:1.5px solid #F9D5DB !important;
+  border-radius:16px !important;
+  overflow:hidden !important;
+}
+.project-card img { width:100% !important; height:160px !important; object-fit:cover !important; }
+.project-card h3, .project-card p { padding:0.6rem 1.2rem !important; }
+
+/* GITHUB SECTION - HINDI NA DIKIT SA VIEW PROJECT */
+#projects h3:nth-of-type(2), #githubMessage, #githubContainer {
+  margin-top:1rem !important;
+  padding-top:2rem !important;
+  border-top:1.5px solid #FFE4E8 !important;
+}
+
+/* CONTACT ME - HINDI NA GULO */
+#contact input, #contact textarea {
+  width:100% !important;
+  max-width:520px !important;
+  border:1.5px solid #F9C5CC !important;
+  border-radius:12px !important;
+  padding:0.9rem 1rem !important;
+  margin:0.4rem 0 1rem 0 !important;
+  display:block !important;
+  font-family:'DM Sans' !important;
+}
+#contact button {
+  background:#E94E77 !important;
+  color:white !important;
+  border:none !important;
+  padding:0.8rem 1.8rem !important;
+  border-radius:50px !important;
+  font-weight:500 !important;
+}
+
+/* TOP BUTTON - NASA RIGHT NA HINDI LEFT */
+#backToTop, #topBtn, button[onclick*="top"] {
+  position:fixed !important;
+  bottom:30px !important;
+  right:30px !important;
+  left:auto !important;
+  background:#E94E77 !important;
+  color:white !important;
+  width:48px !important;
+  height:48px !important;
+  border-radius:50% !important;
+  border:2px solid white !important;
+  box-shadow:0 4px 12px rgba(0,0,0,0.15) !important;
+  z-index:9999 !important;
+}
+/* FIX - VIEW PROJECT AT LATEST GITHUB SPACING */
+.project-card {
+  padding-bottom: 1.2rem!important;
+  margin-bottom: 1rem!important;
+}
+.project-card a[href],.project-card.view-project, #projects-grid a {
+  display: inline-block!important;
+  margin-top: 0.8rem!important;
+  margin-bottom: 0.5rem!important;
+}
+
+/* 1. TANGGALIN YUNG MGA SOBRANG LINYA AT OVER SPACING */
+#projects h3, #projects > div, #githubContainer, #githubMessage, #latest-repos {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  border-top: none !important;
+}
+#about hr, #about [style*="border-top"], #about [style*="border-bottom"] {
+  border: none !important;
+}
+
+/* 2. TAMANG SPACING LANG - VIEW PROJECT AT LATEST GITHUB */
+#projects-grid {
+  margin-bottom: 24px !important;
+}
+.project-card {
+  padding-bottom: 1rem !important;
+}
+#projects > div:last-child {
+  margin-top: 24px !important;
+}
+#projects > div:last-child h3 {
+  margin-bottom: 8px !important;
+}
+
+/* 3. INTERESTS - DI NA HIWALAY, WALANG LINE */
+#about > div {
+  border: none !important;
+}
+#interests, #careerGoal, #biography, #education, #graduation {
+  border: 1.5px solid #F9C5CC !important; /* balik sa bubble border lang */
+  margin-top: 0 !important;
+}
+#about h3, #about h4, #about b {
+  border: none !important;
+  margin-top: 12px !important;
+  margin-bottom: 6px !important;
+}
+
+/* PICTURE - ISANG PINK LANG, TANGGAL REDDISH */
+#home img {
+  border: 6px solid white !important;
+  box-shadow: 0 0 0 12px #E89AA4 !important; /* isang light pink lang - same ng nav */
+  outline: none !important;
+}
+
+/* PROFILE PIC - ISANG PINK LANG, TANGGAL REDDISH */
+#home img, img[src*="profile"] {
+  border: 5px solid white !important;
+  box-shadow: 0 0 0 12px #F4A0AC !important; /* isang light pink lang */
+  outline: none !important;
+}
