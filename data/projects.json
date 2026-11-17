@@ -21,7 +21,15 @@
       "role": " I designed and developed the entire website from scratch, including layout, styling, and interactivity.",
       "image": "https://placehold.co/320x145/E94E77/FFFFFF?text=My+Portfolio",
       "link": "./index.html"
-    }
+    },
+    {
+  "title": "Field Notes",
+  "description": "A simple mobile application for taking, saving, and managing field notes anywhere, anytime. Users can add notes with title, category, location, and content, search notes, and delete notes.",
+  "technologies": "HTML, CSS, JavaScript",
+  "role": "I designed and developed the entire mobile app from scratch, including layout, styling, and interactivity.",
+  "image": "https://placehold.co/320x145/E94E77/FFFFFF?text=Field+Notes",
+  "link": "https://github.com/hylndml00-21/field-notes-app"
+}
   ],
   "contact": {
     "email": "hyleendumlao272@gmail.com",
