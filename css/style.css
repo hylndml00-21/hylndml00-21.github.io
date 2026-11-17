@@ -114,7 +114,7 @@ nav ul { display:flex !important; gap:2.2rem !important; list-style:none !import
   margin-bottom:3rem !important; /* MALAKING SPACE BAGO GITHUB */
 }
 .project-card {
-  width:360px !important;
+  width: calc(50% - 12px) !important;
   background:white !important;
   border:1.5px solid #F9D5DB !important;
   border-radius:16px !important;
