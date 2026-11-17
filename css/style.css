@@ -250,39 +250,3 @@ html, body { overflow-x: hidden; width: 100%; }
     transform: none !important;
   }
 }
-/* Para magkatabi yung My Portfolio at Field Notes sa computer */
-@media screen and (min-width: 769px) {
-  #projects-grid {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    gap: 20px !important;
-    align-items: start !important;
-  }
-  #projects-grid .project-card {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-  }
-}
-@media screen and (min-width: 769px) {
-  #projects {
-    max-width: 1100px !important;
-    width: 100% !important;
-  }
-  #projects > div {
-    max-width: 1100px !important;
-    width: 100% !important;
-  }
-  #projects-grid {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    gap: 20px !important;
-    width: 100% !important;
-  }
-  #projects-grid .project-card {
-    flex: 1 1 calc(50% - 10px) !important;
-    max-width: calc(50% - 10px) !important;
-    min-width: 0 !important;
-  }
-}
