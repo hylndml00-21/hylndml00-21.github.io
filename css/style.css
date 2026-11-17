@@ -250,3 +250,17 @@ html, body { overflow-x: hidden; width: 100%; }
     transform: none !important;
   }
 }
+/* Para magkatabi yung My Portfolio at Field Notes sa computer */
+@media screen and (min-width: 769px) {
+  #projects-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px !important;
+    align-items: start !important;
+  }
+  #projects-grid .project-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}
